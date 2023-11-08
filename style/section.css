@@ -1,0 +1,27 @@
+.block {
+    
+}
+
+.block_1 {
+    background-color: black;
+    color: white;
+    height: 500px;
+}
+.text_1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 210px;
+    font-weight: 900;
+}
+.stiker {
+    margin-left: 140px;
+    margin-top: 50px;
+    display: flex;
+}
+.stik-1 {
+    padding-right: 30px;
+}
+
+.stik-3 {
+   padding-left: 30px;
+}
