@@ -1,0 +1,44 @@
+.centring {
+    margin: 0 auto;
+    width: 900px;
+    border: solid 2px white;
+}
+
+.pre_footer {
+    background-color: black;
+    width: 100%;
+    height: 700px;
+}
+
+.top_stickers {
+    display: grid;
+    width: 100%;
+
+    grid-template-columns: 400px 400px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+
+.top_saleing {
+    color: var(--white, #FFF);
+    font-family: Russo One;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sticker {
+    background-color: white;
+    width: 400px;
+    height: 150px;
+    border-radius: 40px;
+    background: var(--white, #FFF);
+}
+
+footer {
+    background: var(--gray_deep, #37373E);
+    height: 300px;
+}
