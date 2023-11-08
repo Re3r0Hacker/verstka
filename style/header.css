@@ -1,0 +1,21 @@
+.head {
+    width: 1920px;
+    height: 80px;
+    background-color: white;
+}
+.photo { 
+    width: 100px;
+    height: 50px;
+    top: 20px;
+    left: 320px;
+    position: absolute;
+}
+.after { 
+    width: Hug 353px;
+    height: Hug 28px;
+    top: 30px;
+    left: 484px;
+    gap: 32px;
+    position: absolute;
+    
+}
