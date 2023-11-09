@@ -27,19 +27,39 @@
     align-items: center;
     justify-content: center;
     margin-top: 50px;
-    color: crimson;
+    color: white;
     
 }
 .num-1{
-    margin-right: 50px;
-    border: 5px solid crimson;
+    margin-right: 20px;
+    border: thin solid crimson;
+    border-radius: 40px;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    
 }
 .num-2{
-    margin-right: 50px;
+    margin-right: 20px;
+    border: thin solid crimson;
+    border-radius: 40px;
+    width: 40px;
+    height: 20px;
+    text-align: center;
 }
 .num-3{
-    margin-right: 50px;
+    margin-right: 20px;
+    border: thin solid crimson;
+    border-radius: 40px;
+    width: 40px;
+    height: 20px;
+    text-align: center;
 }
 .num-4{
-    margin-right: 50px;
+    margin-right: 20px;
+    border: thin solid crimson;
+    border-radius: 40px;
+    width: 40px;
+    height: 20px;
+    text-align: center;
 }
