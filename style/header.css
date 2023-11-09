@@ -1,5 +1,21 @@
 .head { 
     width: 100%;
     height: 80px;
-    background-color: black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.Logo { 
+    width: 80px;
+    height: 30px;
+    margin-left: 320px;
+    margin-top: 15px;
+}
+.menu li a { 
+    display: flex;
+    flex-direction: column; 
+    text-decoration: none;
+}
+.menu { 
+    padding: 30px;
 }
