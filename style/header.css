@@ -11,11 +11,14 @@
     margin-left: 320px;
     margin-top: 15px;
 }
-.menu li a { 
-    display: flex;
-    flex-direction: column; 
+.author_collection_services{
+    padding-left: 70px;
+    margin-top: 10px;
+    display: flex; 
     text-decoration: none;
+    grid: gap;
+    justify-content: space-around;
 }
-.menu { 
-    padding: 30px;
+.Menu { 
+    justify-content: space-around;   
 }

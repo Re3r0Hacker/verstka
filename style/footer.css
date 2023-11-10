@@ -1,44 +1,93 @@
+footer {
+    background-color: black;
+}
+
 .centring {
     margin: 0 auto;
-    width: 900px;
-    border: solid 2px white;
+    width: 940px;
 }
 
-.pre_footer {
-    background-color: black;
-    width: 100%;
-    height: 700px;
-}
-
-.top_stickers {
-    display: grid;
-    width: 100%;
-
-    grid-template-columns: 400px 400px;
-    align-items: center;
-    justify-content: space-around;
-    gap: 20px;
-
-}
-
-.top_saleing {
+.top_of_selling {
+    padding-top: 90px;
     color: var(--white, #FFF);
     font-family: Russo One;
-    font-size: 60px;
+    font-size: 58px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin-bottom: 20px;
+}
+
+.top_stickers {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 450px 450px;
+    justify-content: space-between;
+    grid-template-rows: 160px 160px 160px;
 }
 
 .sticker {
+    display: grid;
+    grid-template-columns: 100px auto;
+    align-items: center;
     background-color: white;
-    width: 400px;
-    height: 150px;
     border-radius: 40px;
-    background: var(--white, #FFF);
+    margin-bottom: 20px;
 }
 
-footer {
-    background: var(--gray_deep, #37373E);
-    height: 300px;
+.sticker_info {
+    display: grid;
+    align-items: center;
+    margin-left: 20px;
+    
+}
+
+.user_name {
+    color: var(--black, #07060B);
+    font-family: Muller;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.sticker_title {
+    color: var(--black, #07060B);
+    font-family: Muller;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.image {
+    width: 100px;
+    height: 100%;
+    background: var(--grey_light, #EDEDF2);
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.image > img {
+    width: 90px;
+    margin-left: 10px;
+}
+
+.user_nick {
+    height: 30px;
+    vertical-align: text-top;
+}
+
+.user_photo_and_nick {
+    display: grid;
+    grid-template-columns: 30px 100px;
+    vertical-align: middle;
+    grid-template-rows: 20px;
+    align-items: center;
 }
