@@ -6,8 +6,9 @@
 .text_1{
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 210px;
+    margin-left: 150px;
     font-weight: 900;
+    padding-top: 50px;
 }
 .stiker {
     margin-left: 140px;
@@ -28,7 +29,6 @@
     justify-content: center;
     margin-top: 50px;
     color: white;
-    
 }
 .num-1{
     margin-right: 20px;
@@ -37,7 +37,6 @@
     width: 40px;
     height: 20px;
     text-align: center;
-    
 }
 .num-2{
     margin-right: 20px;
@@ -62,4 +61,16 @@
     width: 40px;
     height: 20px;
     text-align: center;
+}
+.block-2 {
+    background-color:crimson;
+    height: 300px;
+    color: white;
+}
+.text-2 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+    font-weight: 900;
+    padding-top: 50px;
 }
