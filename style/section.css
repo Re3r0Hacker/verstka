@@ -11,16 +11,11 @@
     padding-top: 50px;
 }
 .stiker {
-    margin-left: 140px;
-    margin-top: 50px;
-    display: flex;
-}
-.stik-1 {
-    padding-right: 30px;
-}
-
-.stik-3 {
-   padding-left: 30px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 200px 200px 400px;
+    grid-gap: 50px;
+    margin-top: 30px;
 }
 
 .num {
@@ -38,6 +33,10 @@
     height: 20px;
     text-align: center;
 }
+.num-1:hover {
+   background-color:crimson;
+}
+
 .num-2{
     margin-right: 20px;
     border: thin solid crimson;
@@ -46,6 +45,10 @@
     height: 20px;
     text-align: center;
 }
+.num-2:hover {
+    background-color:crimson;
+ }
+
 .num-3{
     margin-right: 20px;
     border: thin solid crimson;
@@ -54,6 +57,10 @@
     height: 20px;
     text-align: center;
 }
+.num-3:hover {
+    background-color:crimson;
+ }
+
 .num-4{
     margin-right: 20px;
     border: thin solid crimson;
@@ -62,15 +69,51 @@
     height: 20px;
     text-align: center;
 }
-.block-2 {
+.num-4:hover {
     background-color:crimson;
+ }
+ 
+.block-2 {
+    background-color:rgb(125, 3, 3);
     height: 300px;
     color: white;
+    display: flex;
 }
-.text-2 {
+p {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 50px;
+    margin-left: 20px;
     font-weight: 900;
     padding-top: 50px;
 }
+
+.registration-form {
+    width: 300px;
+    text-align: center;
+    margin-left: 200px;
+  }
+
+  .registration-form input {
+    width: 210px;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 80px;
+    background-color:black;
+    color: white;
+    
+  }
+
+  .registration-form button {
+    background-color: #1ad2c3;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 80px;
+    cursor: pointer;
+    width: 150px;
+    margin-right: 80px;
+  }
+
+  .registration-form button:hover {
+    background-color: #00ffff;
+  }
