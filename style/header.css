@@ -1,24 +1,58 @@
-.head { 
+.navbar {
     width: 100%;
     height: 80px;
-    background-color: white;
+}
+.navbar .container {
+    width: inherit;
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.Logo { 
-    width: 80px;
-    height: 30px;
-    margin-left: 320px;
-    margin-top: 15px;
+.logo { 
+    width: 100px;
+    height: 40px;
+    margin-left: 200px;
+    margin-top: 20px;
 }
-.author_collection_services{
-    padding-left: 70px;
-    margin-top: 10px;
-    display: flex; 
+.navbar-menu { 
+    margin-right: 180px;
+    margin-top: 20px;
+
+}
+.navbar-menu li { 
+    display: inline-block;
+}
+.navbar-menu li a { 
+    display: inline-block;
+    margin-right: 35px;
     text-decoration: none;
-    grid: gap;
-    justify-content: space-around;
+    color: black;
 }
-.Menu { 
-    justify-content: space-around;   
+.navbar-wrap {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.PAY { 
+display: flex;
+width: 100px;
+padding: 10px 35px;
+justify-content: center;
+align-items: center;
+border-radius: 77px;
+color: white;
+background: var(--black, #07060B);
+margin-right: 130px;
+margin-top: 15px;
+}
+.navbar-menu li a:hover { 
+    opacity: 1;
+    color: red;
+    transform: scale(1.04);
+}
+.PAY:hover { 
+    opacity: 1;
+    background-color: white;
+    color: black;
+    transform: scale(1.07);
 }
