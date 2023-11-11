@@ -78,6 +78,8 @@
     height: 300px;
     color: white;
     display: flex;
+    justify-content: center;
+    
 }
 p {
     font-size: 18px;
@@ -90,7 +92,6 @@ p {
 .registration-form {
     width: 300px;
     text-align: center;
-    margin-left: 200px;
   }
 
   .registration-form input {
@@ -116,4 +117,8 @@ p {
 
   .registration-form button:hover {
     background-color: #00ffff;
+  }
+
+  .section {
+    background-color: rgb(125, 3, 3);
   }
