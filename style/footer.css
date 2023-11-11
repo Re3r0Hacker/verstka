@@ -91,3 +91,7 @@ footer {
     grid-template-rows: 20px;
     align-items: center;
 }
+
+.price_ {
+    color: #95959D;
+}
