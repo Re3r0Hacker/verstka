@@ -37,13 +37,3 @@
     color: black;
     transform: scale(1.07);
 }
-.menu li a { 
-    color: black;
-}
-.menu li:hover { 
-    opacity: 1;
-    transform: scale(1.07);
-}
-.menu li a:hover { 
-    color: red;
-}
