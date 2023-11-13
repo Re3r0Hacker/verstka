@@ -26,7 +26,10 @@ footer {
     grid-template-columns: 450px 450px;
     justify-content: space-between;
     grid-template-rows: 160px 160px 160px;
+    padding-bottom: 80px;
 }
+
+
 
 .sticker {
     display: grid;
@@ -96,3 +99,99 @@ footer {
     color: #95959D;
 }
 
+
+
+.end_of_footer {
+    height: 250px;
+    background: var(--gray_deep, #37373E);
+}
+
+.end_of_footer_space_between {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 400px 460px;
+    align-items: center;
+    height: 250px;
+}
+.to_be_top > div {
+    display: grid;
+    grid-template-columns: 50px 400px;
+    padding-bottom: 15px;
+}
+
+.to_be_top > div > p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.smiles {
+    display: flex;
+    justify-content: right;
+}
+
+.smiles > img {
+    width: 350px;
+
+}
+
+.to_be_top > h1 {
+    color: var(--white, #FFF);
+    font-family: Muller;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.to_be_top > div > p {
+    color: var(--white, #FFF);
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.Aura_blue {
+    background: var(--primary, #46F4DB);
+    height: 100px;
+    display: grid;
+    align-items: center;
+}
+
+.Aura_blue > div {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Aura_blue_buttons {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+}
+
+.Aura_blue_buttons > p {
+    padding: 0px;
+}
+
+.black_date {
+    width: 100%;
+    height: 30px;
+    background-color: #07060B;
+    text-align: center;
+    vertical-align: middle;
+    display: grid;
+    align-items: center;
+}
+
+.black_date > p {
+    padding: 0px;
+    color: var(--grey_light, #EDEDF2);
+    font-family: Mulish;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
